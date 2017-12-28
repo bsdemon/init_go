@@ -11,6 +11,6 @@ mkdir -p $BINDIR
 mkdir -p $PKGDIR
 
 echo "export GOPATH=$GOPATH" >> ~/.bashrc
-echo "export $PATH:$GOPATH/bin" >> ~/.bashrc
+echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 source ~/.bashrc 
 
